@@ -1,0 +1,24 @@
+body{
+  background-image: url('mars.jpg');
+  overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #container{
+    margin-top: 10%;
+    display: inline-block;
+  }
+  canvas{
+    
+    background-image: url('fffffbdbd.jpg');
+    background-size: cover;
+    height: 70vh;
+   
+    border: 1px solid black;
+  }
+  @media screen and (max-width:770px){
+    canvas{
+      height: 32vh;
+    }
+  }
